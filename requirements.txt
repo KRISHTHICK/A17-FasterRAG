@@ -1,1 +1,10 @@
 pip install sentence-transformers
+
+# Run This Code:
+# Install Libraries:
+pip install streamlit langchain-community pypdf
+# Ensure Ollama is Running and Gemma is Pulled: Make sure you have Ollama installed and running, and you have pulled the gemma model:
+ollama pull gemma
+# Save the code: Save the Python code above as a .py file (e.g., rag_chatbot.py).
+# Run Streamlit:
+# streamlit run rag_chatbot.py
